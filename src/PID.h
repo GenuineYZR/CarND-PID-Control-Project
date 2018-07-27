@@ -17,6 +17,9 @@ public:
   double Ki;
   double Kd;
 
+  ///* initially set to false, set to true in first call of UpdateError.
+  bool is_initialized_;
+
   /*
   * Constructor
   */
